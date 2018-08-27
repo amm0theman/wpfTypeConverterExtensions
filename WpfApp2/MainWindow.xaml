@@ -18,8 +18,9 @@
                     <Label Content="Orders Placed" HorizontalAlignment="Left" Margin="665,6,0,0" VerticalAlignment="Top"/>
                     <StackPanel HorizontalAlignment="Left" Height="327" Margin="659,35,0,0" VerticalAlignment="Top" Width="100" Background="#FFFFFFFF" Name="PlaceOrders"/>
                     <Label Content="Good Inventory" HorizontalAlignment="Left" Margin="12,6,0,0" VerticalAlignment="Top"/>
-                    <StackPanel HorizontalAlignment="Left" Height="325" Margin="10,35,0,0" VerticalAlignment="Top" Width="100" Background="#FFFFFFFF"/>
+                    <StackPanel HorizontalAlignment="Left" Height="325" Margin="10,35,0,0" VerticalAlignment="Top" Width="100" Background="{x:Null}"/>
                     <Button Content="Place Order" HorizontalAlignment="Left" Margin="567,343,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+                    <Label Content="background is x:Null" HorizontalAlignment="Left" Margin="12,127,0,0" VerticalAlignment="Top" Width="117"/>
                 </Grid>
             </TabItem>
         </TabControl>
